@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    margin-left: 100px;
+}
+
+.navbar a {
+    color: grey;
+    text-decoration: none;
+    padding: 14px 40px;
+    display: block;
+}
+
+.navbar-nav a:hover {
+    color: black;
+}
+
+.navbar-links {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+}
