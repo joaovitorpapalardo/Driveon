@@ -4,37 +4,14 @@ body {
     padding: 0;
 }
 
-.navbar {
-    overflow: hidden;
-}
-
-.navbar .container {
-    display: flex;
-    align-items: center;
-    padding: 14px 20px;
-    margin-left: 100px;
-}
-
-.navbar a {
-    color: grey;
-    text-decoration: none;
-    padding: 14px 40px;
-    display: block;
-}
-
-.navbar-nav a:hover {
-    color: black;
-}
-
-.navbar-links {
-    display: flex;
-    margin-left: 50px;
+.btn-topo {
+    margin-right: 10vh;
 }
 
 .navbar-nav {
-    display: flex;
+    margin-left: 100px;
 }
 
-.navbar-nav .nav-link {
-    margin-right: 10px;
+.navbar a{
+    padding: 10px 40px;
 }
