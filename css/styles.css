@@ -16,6 +16,10 @@ body {
     padding: 10px 40px;
 }
 
+#section-principal {
+    width: 100%;
+}
+
 .container-principal {
     margin-top: 10vh;
     padding-left: 0;
@@ -52,4 +56,29 @@ body {
 
 .btn-discover:hover {
     transform: translateY(-2px);
+}
+
+#section-started {
+    width: 100%;
+    margin-top: 10%;
+    
+}
+
+.img-linha-started {
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.container-started h2 {
+    color: rgb(96, 19, 168);
+}
+
+.texto-h2-started {
+    margin: 50px 0 0 0;
+    font-size: 2.2em;
+}
+
+.linha-started {
+    margin-right: 3%;
 }
