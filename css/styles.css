@@ -38,6 +38,7 @@ body {
 
 .textos-secao-principal {
     margin-left: 100px;
+    font-size: 1.2em;
 }
 
 .btn-discover {
@@ -104,16 +105,25 @@ body {
     margin-top: 10%;
 }
 
-.img-linha-driveon {
-    margin-left: 50%;
-    margin-bottom: 80px;
-}
-
-.informacoes-driveon {
+.linha-driveon {
+    margin-bottom: 100px;
 }
 
 .img-secao-driveon {
+    width: 80%;
+    margin-right: auto;
+    margin-left: 0;
+
+}
+
+.container-driveon .informacoes-driveon p {
     width: 70%;
-    top: 0;
-    left: 0;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+}
+
+.container-driveon .informacoes-driveon a {
+    color: #1135ff;
+    font-size: 1.3em;
+    text-decoration: none;
 }
