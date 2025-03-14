@@ -67,7 +67,6 @@ body {
 .img-linha-started {
     justify-content: center;
     text-align: center;
-    
 }
 
 .container-started h2 {
@@ -90,5 +89,31 @@ body {
 
 .informacoes-started h4 {
     color: rgb(96, 19, 168);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.informacoes-started p {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#section-driveon {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.img-linha-driveon {
+    margin-left: 50%;
+    margin-bottom: 80px;
+}
+
+.informacoes-driveon {
+}
+
+.img-secao-driveon {
+    width: 70%;
+    top: 0;
+    left: 0;
 }
