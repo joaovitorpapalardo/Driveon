@@ -14,7 +14,27 @@ body {
 }
 
 .navbar a{
+    position: relative;
     padding: 10px 40px;
+}
+
+.nav-item a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(96, 19, 168);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.nav-item a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 #section-principal {
@@ -202,6 +222,11 @@ body {
     right: 39%;
 }
 
+.register {
+    position: relative;
+    bottom: 200px;
+}
+
 footer {
     background-image: url(../images/fundo-footer-teste-programador.png.jpg);
     background-size: cover;
@@ -211,16 +236,48 @@ footer {
     text-align: center;
 }
 
+footer h2, h3 {
+    position: relative;
+    top: 80px;
+    font-weight: 700;
+}
+
 footer ul {
+    position: relative;
+    top: 80px;
     list-style: none;
     text-align: start;
     padding: 10px;
+    
 }
 footer ul li{
     list-style: none;
     text-align: start;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 footer a {
     text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(182, 182, 182);
+}
+
+.text-start {
+    text-align: start;
+}
+
+.links-footer {
+    margin-bottom: 10%;
+}
+
+.linha-footer{
+    border-top: 1px solid white;
+}
+
+.linha-footer p {
+    margin-top: 20px;
+    align-items: start;
+    text-align: start;
 }
