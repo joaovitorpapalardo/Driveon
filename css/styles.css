@@ -6,7 +6,29 @@ body {
 }
 
 .btn-topo {
-    margin-left: auto;
+    position: relative;
+    margin-left: 40%;
+}
+
+.btn-login a{
+    color: rgb(96, 19, 168);
+    text-decoration: none;
+}
+
+.btn-login img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-topo button {
+    padding-right: 50px;
+}
+
+.btn-topo .btn-sign-up {
+    border: 1px solid grey;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px;
 }
 
 .navbar-nav {
