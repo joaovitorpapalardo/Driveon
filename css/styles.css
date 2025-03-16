@@ -113,7 +113,8 @@ body {
     width: 80%;
     margin-right: auto;
     margin-left: 0;
-
+    position: relative;
+    top: -40px;
 }
 
 .container-driveon .informacoes-driveon p {
@@ -125,5 +126,45 @@ body {
 .container-driveon .informacoes-driveon a {
     color: #1135ff;
     font-size: 1.3em;
+    text-decoration: none;
+}
+
+#section-safety {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.linha-safety {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.informacoes-safety {
+    width: 70%;
+    margin-left: 20%;
+}
+
+.informacoes-safety h4 {
+    color: rgb(96, 19, 168);
+    margin-bottom: 50px;
+    margin-top: 5%;
+}
+
+.informacoes-safety p {
+    justify-content: center;
+    text-align: start;
+    width: 70%; 
+}
+
+
+.img-secao-safety {
+    width: 80%;
+    position: relative;
+    top: -300px;
+}
+
+.container-safety .informacoes-safety a {
+    color: #1135ff;
+    font-size: 1.2em;
     text-decoration: none;
 }
