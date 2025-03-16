@@ -281,3 +281,13 @@ footer a:hover {
     align-items: start;
     text-align: start;
 }
+
+.links-redes-sociais{
+    align-items: end;
+    text-align: end;
+    padding-top: 20px;
+}
+
+.links-redes-sociais a{
+    padding-left: 30px;
+}
