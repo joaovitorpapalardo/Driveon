@@ -101,6 +101,7 @@ body {
 
 .btn-discover:hover {
     transform: translateY(-2px);
+    transition: all 0.5s;
 }
 
 /* -- SEÇÃO STARTED -- */
