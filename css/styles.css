@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 
+/* -- NAVBAR -- */
 .btn-topo {
     position: relative;
     margin-left: 40%;
@@ -58,7 +59,7 @@ body {
     transform-origin: left;
     transform: scaleX(1);
 }
-
+/* -- SEÇÃO PRINCIPAL -- */
 #section-principal {
     width: 100%;
 }
@@ -102,6 +103,7 @@ body {
     transform: translateY(-2px);
 }
 
+/* -- SEÇÃO STARTED -- */
 #section-started {
     width: 100%;
     margin-top: 10%;
@@ -143,6 +145,7 @@ body {
     margin-left: 10%;
 }
 
+/* -- SEÇÃO DRIVEON -- */
 #section-driveon {
     width: 100%;
     margin-top: 10%;
@@ -172,6 +175,7 @@ body {
     text-decoration: none;
 }
 
+/* -- SEÇÃO SAFETY -- */
 #section-safety {
     width: 100%;
     margin-top: 10%;
@@ -213,7 +217,7 @@ body {
     font-size: 1.2em;
     text-decoration: none;
 }
-
+/* -- SEÇÃO APPLICATION / DOWNLOAD -- */
 #application {
     position: relative;
     width: 100%;
@@ -287,6 +291,7 @@ body {
     bottom: 200px;
 }
 
+/* -- FOOTER -- */
 footer {
     background-image: url(../images/fundo-footer-teste-programador.png.jpg);
     background-size: cover;
@@ -352,7 +357,7 @@ footer a:hover {
     padding-left: 30px;
 }
 
-/* Responsividade */
+/* MEDIA QUERIES */
 
 @media (max-width: 992px) {
     .btn-topo {
