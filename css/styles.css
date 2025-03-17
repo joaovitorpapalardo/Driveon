@@ -191,6 +191,7 @@ body {
     color: rgb(96, 19, 168);
     margin-bottom: 50px;
     margin-top: 5%;
+    font-size: 2.5em;
 }
 
 .informacoes-safety p {
@@ -312,4 +313,208 @@ footer a:hover {
 
 .links-redes-sociais a{
     padding-left: 30px;
+}
+
+/* Responsividade */
+
+@media (max-width: 992px) {
+    .btn-topo {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .textos-secao-principal {
+
+        text-align: center;
+    }
+
+    .btn-discover {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .informacoes-started p,
+    .container-driveon .informacoes-driveon p,
+    .informacoes-safety {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-secao-principal,
+    .img-secao-driveon,
+    .img-secao-safety {
+        display: none;
+    }
+
+    .navbar .container-fluid .navbar-collapse ul {
+        width: 100%;
+        display: grid;
+        text-align: start;
+        justify-content: end;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item a::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: rgb(96, 19, 168);
+        bottom: 0;
+        left: 0;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
+    
+    .nav-item a:hover::before {
+        transform-origin: right;
+        transform: scaleX(1);
+    }
+
+    .navbar .container-fluid button {
+        display: grid;
+        text-align: end;
+        justify-content: end;
+    }
+
+    .navbar .container-fluid .navbar-collapse .btn-topo {
+        display: grid;
+        text-align: start;
+        justify-content: end;
+        word-wrap: break-word;
+    }
+
+    #section-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #section-principal .container-principal .textos-secao-principal,
+     #section-started .container-started .informacoes-started p,
+      #section-driveon .container-driveon .row .col
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    #section-safety .container-safety .safety,
+     #section-safety .container-safety .safety .linha-safety,
+     #section-safety .container-safety .safety .informacoes-safety
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    #section-safety .container-safety .safety .informacoes-safety p {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #section-download .container-download {
+        display: none;
+
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    footer .container .links-footer{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding: 20px;
+    }
+
+    footer .container .linha-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-principal h1 {
+        font-size: 3em;
+    }
+
+    .btn-topo {
+        flex-direction: column;
+    }
+
+    .img-secao-principal {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .informacoes-started,
+    .informacoes-driveon,
+    .informacoes-safety {
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container-principal h1 {
+        font-size: 2.5em;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    .textos-secao-principal {
+        font-size: 1em;
+    }
+
+    .btn-discover {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+
+    .img-secao-principal,
+    .img-secao-driveon,
+    .img-secao-safety {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 361px) {
+    .navbar .container-fluid .collapse{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+
+    }
 }
